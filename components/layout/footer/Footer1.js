@@ -62,9 +62,7 @@ export default function Footer1() {
 
                                     <div className="footer-widget__links-box">
                                         <ul>
-                                            <li><Link href="#home">Home</Link></li>
-                                            <li><Link href="#about-us">About Us</Link></li>
-                                            <li><Link href="#around-the-corner">Around the Corner</Link></li>
+                                            <li><Link href="https://www.shiroestate.ae/privacy-policy" target="_blank">Privacy Policy</Link></li>
                                         </ul>
                                     </div>
 
@@ -73,126 +71,8 @@ export default function Footer1() {
 
                               <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links footer_spacing">
-                                    <div className="title">
-                                        <h2>About Laguna</h2>
-                                    </div>
 
-                                    <div className="footer-widget__links-box">
-
-                                        <div className="footer-widget__links-box">
-                                        <ul>
-                                             <li><Link href="#amenities">Amenities</Link></li>
-                                            <li><Link href="#gallery">Gallery</Link></li>
-                                            <li><Link href="#contact">Contact Us</Link></li>
-                                        </ul>
-                                    </div>
-                                        {/* <ul className="social-links" style={{ display: "flex", flexDirection: "column", listStyle: "none", padding: 0 }}>
-      <div style={{display: "flex", gap: 20}}>
-        <li>
-        <Link href="https://www.facebook.com/shiroestate" target="_blank" rel="noopener noreferrer">
-          <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-            <FaFacebookF size={20}/>
-          </div>
-        </Link>
-      </li>
-      <li>
-        <Link href="https://www.linkedin.com/company/shiro-estate" target="_blank" rel="noopener noreferrer">
-        <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-<FaLinkedinIn size={20}/>
-        </div>
-          
-        </Link>
-      </li>
-      </div>
-      <div style={{display: "flex", gap: 20}}>
-<li>
-        <Link href="https://x.com/shiroestate" target="_blank" rel="noopener noreferrer">
-          <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-            <FaTwitter size={20}/>
-          </div>
-        </Link>
-      </li>
-      <li>
-        <Link href="https://www.instagram.com/shiro.estate" target="_blank" rel="noopener noreferrer">
-          <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-            <FaInstagram size={20}/>
-          </div>
-        </Link>
-      </li>
-      </div>
-      
-      <div style={{display: "flex", gap: 20}}>
-        <li>
-        <Link href="https://www.tiktok.com/@shiroestate" target="_blank" rel="noopener noreferrer">
-          <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-            <FaTiktok size={20}/>
-          </div>
-        </Link>
-      </li>
-      <li>
-        <Link href="https://www.snapchat.com/@shiro.estate" target="_blank" rel="noopener noreferrer">
-          <div  style={{
-    width: "30px",
-    height: "30px",
-    backgroundColor: "#9f8151",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: "8px", // use '50%' for circle
-    color: "#fff",
-  }}>
-            <FaSnapchatGhost size={20}/>
-          </div>
-        </Link>
-      </li>
-      </div>
-    </ul> */}
-                                    </div>
+                                  
 
                                 </div>
                             </div>

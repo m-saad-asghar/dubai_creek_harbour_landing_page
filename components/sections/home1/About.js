@@ -33,7 +33,7 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
                             </div>
                         </div>
 
-                        <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12 wow animated fadeInRight" data-wow-delay="0.1s">
+                        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 wow animated fadeInRight" data-wow-delay="0.1s">
                             <div className="about-one__img about_i">
                                 <div className="inner">
                                     <Image
