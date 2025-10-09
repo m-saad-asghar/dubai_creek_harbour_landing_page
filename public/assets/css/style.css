@@ -6830,9 +6830,9 @@ Project Four Css
 	}
 
 	.feauture-one__single {
-		max-width: 500px;
+		/* max-width: 500px; */
 		width: 100%;
-		margin: 0 auto 30px;
+		margin: 0 auto 0px;
 	}
 
 	.feauture-one__single-text h2 {
@@ -6882,7 +6882,7 @@ Project Four Css
 
 	.about-one__img {
 		margin-right: 0px;
-		max-width: 480px;
+		/* max-width: 480px; */
 		width: 100%;
 	}
 
@@ -7261,7 +7261,7 @@ Project Four Css
 	}
 
 	.team-two__single {
-		max-width: 400px;
+		/* max-width: 400px; */
 		width: 100%;
 		margin: 0 auto 30px;
 	}
@@ -8212,9 +8212,28 @@ Project Four Css
 }
 
 @media only screen and (max-width: 767px) {
+
+    .main-slider-one__single {
+		padding: 50px 0px 53px;
+	}
+    .banner_container { 
+        padding-top: 0;
+    }
+
    .about_spacing {
-    padding: 75px 0 0;
+    padding: 0 0 0;
 }
+
+.banner_container_main_except {
+padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.about_i {
+    margin-top: 35px;
+
+}
+
 .about-one__content {
     margin-top: 60px;
 }
@@ -8237,7 +8256,7 @@ Project Four Css
     padding-bottom: 70px;
 }
 .feauture-one {
-    padding: 55px 0px 70px;
+    padding: 55px 0px 20px;
 }
 .sec-title {
     padding-bottom: 45px;
@@ -8245,11 +8264,16 @@ Project Four Css
 .feature_btn {
     margin-top: 35px;
 }
+
+.map_styling {
+    margin-bottom: 30px;
+}
+ 
 .service-one {
     padding: 70px 0 70px;;
 }
 .team-two {
-    padding: 60px 0 40px;
+    padding: 40px 0 20px;
 }
 .footer-main {
     padding: 60px 0 60px;
