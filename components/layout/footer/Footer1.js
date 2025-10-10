@@ -69,13 +69,26 @@ export default function Footer1() {
                                 </div>
                             </div>
 
-                              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                                <div className="single-footer-widget footer-widget__links">
+                                    <Image
+    src="/assets/logo/dubai_creek_harbour.png"
+    alt="qr_code"
+    height={180}
+    width={300} // adjust based on your logo’s aspect ratio
+    style={{ height: "180px", width: "auto" }}
+  />
+
+                                </div>
+                            </div>
+
+                              {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links footer_spacing">
 
                                   
 
                                 </div>
-                            </div>
+                            </div> */}
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}

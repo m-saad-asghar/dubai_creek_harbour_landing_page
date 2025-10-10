@@ -17,6 +17,7 @@ import Link from "next/link"
 import Footer1 from "@/components/layout/footer/Footer1"
 import ContactForm from "@/components/ContactForm"
 import Map from "@/components/Map"
+import Future from "@/components/Future"
 export default function Home() {
 
     return (
@@ -25,6 +26,7 @@ export default function Home() {
                 <Banner />
                  <About />
                  <TeamsListing/>
+                 <Future/>
                 <Features />
                 <Services />
                 <Map/>

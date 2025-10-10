@@ -539,6 +539,14 @@ input {
   cursor: pointer;
 }
 
+.future_styling {
+    padding-bottom: 20px 0 60px;
+}
+
+.down_styling {
+    color: #ffffff;
+}
+
 .modern-checkbox:checked::after {
   content: '';
   position: absolute;

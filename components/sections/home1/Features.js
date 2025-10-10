@@ -6,7 +6,7 @@ import Image from "next/image";
 import { FaPlane, FaGlobe, FaMedkit, FaSchool, FaBuilding, FaShoppingCart, FaBroadcastTower, FaLandmark, FaDollarSign, FaHouseUser, FaMoneyBill, FaWalking, FaMap, FaShieldAlt, FaChartLine, FaIdCard, FaLightbulb, FaGift } from "react-icons/fa";
 
 
-export default function Features() {
+export default function   Features() {
     return (
         <>
         

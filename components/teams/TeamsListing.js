@@ -21,7 +21,7 @@ export default function TeamsListing() {
   const images = [
   {
     id: 1,
-    src: "/assets/img/gallery/emaar_1.webp",
+    src: "/assets/img/gallery/creek_1.jpg",
     alt: "Gallery Image 1",
     link: "#home",
     // heading: "Townhouses Starting from AED 3.2M",
@@ -29,7 +29,7 @@ export default function TeamsListing() {
   },
   {
     id: 2,
-    src: "/assets/img/gallery/emaar_2.webp",
+    src: "/assets/img/gallery/creek_2.jpg",
     alt: "Gallery Image 2",
     link: "#home",
     //  heading: "Townhouses Starting from AED 2.9M",
@@ -37,7 +37,7 @@ export default function TeamsListing() {
   },
   {
     id: 3,
-    src: "/assets/img/gallery/emaar_3.jpg",
+    src: "/assets/img/gallery/creek_3.jpg",
     alt: "Gallery Image 3",
     link: "#home",
     // heading: "Villas Starting from AED 4.36M",
@@ -74,9 +74,9 @@ export default function TeamsListing() {
     <Layout>
       <section className="team-two" id="gallery">
         <div className="container gallery_container_styling">
-          <div className="sec-title gallery_container">
+          {/* <div className="sec-title gallery_container">
             <h2 className="gallery_styling">FEATURED EMAAR PROPERTIES</h2>
-          </div>
+          </div> */}
 
           {/* Normal grid view (unchanged) */}
           <div className="row">
@@ -96,7 +96,7 @@ export default function TeamsListing() {
             src={image.src}
             alt={image.alt}
             width={150}
-            height={400}
+            height={200}
             style={{ objectFit: "cover", display: "block" }}
           />
 
