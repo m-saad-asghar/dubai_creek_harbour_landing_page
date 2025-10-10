@@ -9,6 +9,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import BitrixForm from '@/components/BitrixForm';
 import Image from 'next/image';
 import toast from 'react-hot-toast';
+import PhoneInput from "react-phone-input-2";
+import 'react-phone-input-2/lib/style.css';
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -222,7 +224,28 @@ export default function Banner() {
       </div>
 
       <div className="mb-3">
-        <input
+
+        <PhoneInput
+  name="phone"
+  country={"ae"}
+  value={formData.phone}
+  onChange={(value) =>
+    setFormData({
+      ...formData,
+      phone: value,
+    })
+  }
+  countryCodeEditable={false}
+  required
+  inputStyle={{
+    width: "100%",
+    borderRadius: "0",
+    border: "1px solid #000",
+    height: "50px",
+  }}
+/>
+
+        {/* <input
           type="tel"
           name="phone"
           placeholder="Enter Your Phone Number"
@@ -230,7 +253,7 @@ export default function Banner() {
           value={formData.phone}
           onChange={handleChange}
           required
-        />
+        /> */}
       </div>
 
       <p className='form_text'>

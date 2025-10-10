@@ -334,6 +334,12 @@ h6 {
     padding-bottom: 32px !important;
 }
 
+.flag-dropdown  {
+    border-radius: 0 !important;
+    border-color: #000000 !important;
+    min-width: 45px;
+}
+
 .hover-btn {
   position: absolute;
   top: 50%;
@@ -537,9 +543,9 @@ input {
   content: '';
   position: absolute;
   left: 10px; /* Center horizontally */
-  top: 2px; /* Center vertically */
+  top: 4px; /* Center vertically */
   width: 8px; /* Bigger tick */
-  height: 20px;
+  height: 16px;
   border: solid #fff;
   border-width: 0 2.5px 2.5px 0;
   transform: rotate(45deg);
@@ -8081,6 +8087,12 @@ Project Four Css
 }
 
 @media only screen and (max-width: 991px) {
+
+    .banner_container_main {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
 .heading_middle {
     text-align: center;
 }
