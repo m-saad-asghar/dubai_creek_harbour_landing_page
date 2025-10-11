@@ -10,7 +10,7 @@ export default function Footer1() {
                 {/* <div className="shape1"><img className="float-bob-y" src="assets/img/shape/footer-v1-shape1.png" alt=""/></div> */}
                 {/*Start Footer Main */}
                 <div className="footer-main">
-                    <div className="container banner_container_main">
+                    <div className="container banner_container_main_feature">
                         <div className="row">
                             {/*Start Single Footer Widget */}
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
@@ -29,7 +29,7 @@ export default function Footer1() {
 
                                     <div className="footer-widget__about-inner footer_spacing">
                                         <div className="text-box">
-                                            <p>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1<br/>
+                                            <p style={{color: "#ffffff"}}>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1<br/>
                                                  Downtown, Dubai, UAE</p>
                                         </div>
                                         <div className="number-box">
@@ -62,7 +62,7 @@ export default function Footer1() {
 
                                     <div className="footer-widget__links-box">
                                         <ul>
-                                            <li><Link href="https://www.shiroestate.ae/privacy-policy" target="_blank">Privacy Policy</Link></li>
+                                            <li><Link href="https://www.shiroestate.ae/privacy-policy" target="_blank" style={{color: "#ffffff"}}>Privacy Policy</Link></li>
                                         </ul>
                                     </div>
 

@@ -231,6 +231,10 @@ h6 {
    padding-bottom: 20px;
 }
 
+.future_row {
+    margin-top: 50px;
+}
+
 .sub_heading {
     text-transform: initial !important;
     font-family: 'Optima', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
@@ -257,6 +261,11 @@ h6 {
     padding-right: 80px !important;
 }
 
+.banner_container_main_feature {
+padding-left: 100px !important;
+    padding-right: 80px !important;
+}
+
 .content {
     font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
     font-weight: 300 !important;
@@ -278,13 +287,43 @@ h6 {
     height: 50px;
 }
 
-.about_para {
+.about_para_span {
     font-style: normal;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #000;
+    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    /* font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important; */
+    font-weight: 300 !important;
+}
+
+.about_para {
+   /* color: rgb(0, 0, 0); */
+    font-size: 16px !important;
+    line-height: 24px !important;
+        font-family: 'Lato' !important;
+    font-weight: 300 !important;
+    /* font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
     font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
     font-weight: 300 !important;
-    color: #000;
+    color: #000; */
+}
+
+.investment_text {
+    color: rgb(0, 0, 0);
+    font-size: 16px !important;
+    line-height: 24px !important;
+        font-family: 'Lato' !important;
+    font-weight: 300 !important;
+    text-transform: none !important;
+    /* font-style: normal;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 300 !important;
+    text-transform: none !important; */
 }
 
 .small_heading {
@@ -1795,27 +1834,56 @@ Feauture One
     z-index: 1;
 }
 
+.services_cont {
+    margin-bottom: 50px;
+}
+
+.map_cont {
+    margin-bottom: 60px;
+}
+
+.service_c {
+    margin-bottom: 20px;
+}
+
+.feature_wrap {
+    padding-top: 30px !important;
+    padding-bottom: 25px;
+}
+
+.feature_row {
+    margin-top: 30px;
+}
+
 .investment_content {
-    color: #0b4a35;
-    /* font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important; */
+    color: #000 !important;
+    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+    text-transform: initial !important;
+        margin-top: 15px;
+    margin-bottom: 5px;
+    /* color: #0b4a35;
     font-size: 19px !important;
     font-weight: 500 !important;
     line-height: 28px !important;
     text-transform: initial !important;
     margin: 0 0 15px !important;
     padding: 0;
-    margin-top: 10px !important;
+    margin-top: 10px !important; */
 }
 
-.investment_text {
-    color: rgb(0, 0, 0);
-    font-style: normal;
-    font-size: 17px !important;
-    line-height: 24px !important;
-    /* font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important; */
-    font-weight: 200 !important;
-    text-transform: none !important;
+.investment_content_para {
+       /* color: #000 !important; */
+    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+    text-transform: initial !important;
 }
+
+
 
 .feauture-one__single {
     position: relative;
@@ -1891,6 +1959,26 @@ Feauture One
 }
 
 .feauture-one__single:hover .feauture-one__single-text h2 a {
+    color: var(--thm-white);
+}
+
+.feauture-one__single-text h3 span {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.feauture-one__single:hover .feauture-one__single-text h3 span {
+    color: var(--thm-white);
+}
+
+.feauture-one__single-text p span {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.feauture-one__single:hover .feauture-one__single-text p span {
     color: var(--thm-white);
 }
 
@@ -2308,6 +2396,14 @@ Feauture Two
     color: var(--thm-white);
 }
 
+.feauture-two__single:hover .feauture-two__single-content h3 span {
+    color: var(--thm-white);
+}
+
+.feauture-two__single:hover .feauture-two__single-content p span {
+    color: var(--thm-white);
+}
+
 
 /***
 =============================================
@@ -2631,6 +2727,22 @@ Faq One
 }
 
 .project-one__single .overlay-text h2 a:hover {
+    color: var(--thm-primary);
+}
+
+.project-one__single .overlay-text h3 span {
+    color: var(--thm-white);
+}
+
+.project-one__single .overlay-text h3 span:hover {
+    color: var(--thm-primary);
+}
+
+.project-one__single .overlay-text p span {
+    color: var(--thm-white);
+}
+
+.project-one__single .overlay-text p span:hover {
     color: var(--thm-primary);
 }
 
@@ -6854,6 +6966,18 @@ Project Four Css
 		line-height: 30px;
 	}
 
+    .minus_styling {
+        margin-top: -20px;
+    }
+
+    /* .future_row {
+        margin-top: 0;
+    } */
+
+    .cont {
+        padding-bottom: 0 !important;
+    }
+
 	.about-one__content {
 		position: relative;
 		display: block;
@@ -8192,7 +8316,7 @@ Project Four Css
 }
 
 .about_spacing {
-    padding: 120px 0 0;
+    padding: 80px 0 0;
 }
 
 .everyday_gateway {
@@ -8233,6 +8357,24 @@ Project Four Css
 
 @media only screen and (max-width: 767px) {
 
+    .gallery_container_styling {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.service_padding {
+    padding-bottom: 0 !important;
+}
+
+    .resp_usd {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .feature_wrap {
+    padding-bottom: 40px !important;
+}
+
     .main-slider-one__single {
 		padding: 50px 0px 53px;
 	}
@@ -8244,9 +8386,14 @@ Project Four Css
     padding: 0 0 0;
 }
 
+.banner_container_main_feature {
+padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
 .banner_container_main_except {
-padding-left: 100px !important;
-    padding-right: 100px !important;
+/* padding-left: 100px !important;
+    padding-right: 100px !important; */
 }
 
 .about_i {
@@ -8255,7 +8402,7 @@ padding-left: 100px !important;
 }
 
 .about-one__content {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .everyday_gateway {
     margin-top: 40px !important;

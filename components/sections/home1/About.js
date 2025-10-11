@@ -12,7 +12,7 @@ export default function About() {
                             <div className="about-one__content">
                                 <div>
                                     <p className="small_heading">
-                                        ELEVATE YOUR LIFESTYLE
+                                        <span>ELEVATE YOUR LIFESTYLE</span>
                                     </p>
                                 </div>
                                 <div className="sec-title">
@@ -25,15 +25,15 @@ export default function About() {
 
                                 <div className="text-box">
 <p className="about_para">
-    Dubai Creek Harbour is home to signature landmarks such as the Dubai Creek Marina — a paradise for yachting enthusiasts — and the Ras Al Khor Wildlife Sanctuary, celebrated for its diverse ecosystem and graceful flamingos. Its peaceful lagoons invite you to enjoy scenic nature walks and birdwatching in a truly tranquil setting.
+    <span className="about_para_span">Dubai Creek Harbour is home to signature landmarks such as the Dubai Creek Marina — a paradise for yachting enthusiasts — and the Ras Al Khor Wildlife Sanctuary, celebrated for its diverse ecosystem and graceful flamingos. Its peaceful lagoons invite you to enjoy scenic nature walks and birdwatching in a truly tranquil setting.</span>
 </p><br/>
 
 <p className="about_para">
-    Perfectly connected, Dubai Creek Harbour offers effortless access to Downtown Dubai, Dubai International Airport, and the upcoming Dubai Metro expansion. With its scenic promenades, world-class dining, schools, healthcare facilities, and leisure destinations, the community stands as a premier address for both living and investment.
+    <span className="about_para_span">Perfectly connected, Dubai Creek Harbour offers effortless access to Downtown Dubai, Dubai International Airport, and the upcoming Dubai Metro expansion. With its scenic promenades, world-class dining, schools, healthcare facilities, and leisure destinations, the community stands as a premier address for both living and investment.</span>
 </p><br/>
 
 <p className="about_para">
-    Discover an array of residences, from elegant apartments and penthouses to luxury hotels such as Vida Creek Harbour, Address Harbour Point, and Palace Residences — all boasting breathtaking views of the Creek and the Dubai skyline. Residents and visitors alike can indulge in fine dining, relax at rooftop pools, and explore premium retail experiences, all within one remarkable destination.
+    <span className="about_para_span">Discover an array of residences, from elegant apartments and penthouses to luxury hotels such as Vida Creek Harbour, Address Harbour Point, and Palace Residences — all boasting breathtaking views of the Creek and the Dubai skyline. Residents and visitors alike can indulge in fine dining, relax at rooftop pools, and explore premium retail experiences, all within one remarkable destination.</span>
 </p>
                                 </div>
                             </div>

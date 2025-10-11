@@ -72,7 +72,7 @@ export default function TeamsListing() {
 
   return (
     <Layout>
-      <section className="team-two" id="gallery">
+      <section className="team-two cont" id="gallery">
         <div className="container gallery_container_styling">
           {/* <div className="sec-title gallery_container">
             <h2 className="gallery_styling">FEATURED EMAAR PROPERTIES</h2>
