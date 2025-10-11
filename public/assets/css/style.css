@@ -55,6 +55,18 @@
 @import url('./module-css/services.css');
 @import url('./module-css/team.css');
 @import url('./module-css/testimonial.css');
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBold';
+  src: url('/fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 /*=============================
@@ -224,7 +236,7 @@ h6 {
 .heading {
    letter-spacing: 1px !important; 
    font-weight: 400 !important;
-   font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+   font-family: 'Lato', sans-serif !important;
    font-size: 16px !important;
    line-height: 24px !important;
    color: #ffffff;
@@ -249,7 +261,7 @@ h6 {
     font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    /* font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important; */
+    /* font-family: 'Lato', sans-serif !important; */
     font-weight: 200 !important;
     font-size: 16px !important;
     line-height: 24px !important;
@@ -267,7 +279,7 @@ padding-left: 100px !important;
 }
 
 .content {
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     font-size: 16px !important;
     line-height: 24px !important;
@@ -291,9 +303,9 @@ padding-left: 100px !important;
     font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    color: #000;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
-    /* font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important; */
+    /* color: #000; */
+    font-family: 'Lato', sans-serif !important;
+    /* font-family: 'Lato', sans-serif !important; */
     font-weight: 300 !important;
 }
 
@@ -301,12 +313,12 @@ padding-left: 100px !important;
    /* color: rgb(0, 0, 0); */
     font-size: 16px !important;
     line-height: 24px !important;
-        font-family: 'Lato' !important;
+        font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     /* font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     color: #000; */
 }
@@ -315,13 +327,13 @@ padding-left: 100px !important;
     color: rgb(0, 0, 0);
     font-size: 16px !important;
     line-height: 24px !important;
-        font-family: 'Lato' !important;
+        font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     text-transform: none !important;
     /* font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     text-transform: none !important; */
 }
@@ -334,7 +346,7 @@ padding-left: 100px !important;
   font-size: 12px !important;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   position: relative;
   display: inline-block; /* ensures line aligns properly */
   padding-right: 15px; /* spacing before the line */
@@ -358,7 +370,7 @@ padding-left: 100px !important;
     line-height: 30px !important;
     margin: 0 0 20px !important;
     font-family: 'Optima' !important;
-    color: #000 !important;
+    /* color: #000 !important; */
     padding: 0;
     text-transform: uppercase !important;
     font-weight: 300 !important;
@@ -402,7 +414,7 @@ padding-left: 100px !important;
   transition: all 0.3s ease;
   z-index: 39;
 
-  font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
     font-size: 12px !important;
     font-weight: 700 !important;
     line-height: 24px !important;
@@ -454,7 +466,7 @@ padding-left: 100px !important;
     font-size: 14px;
     color: #fff;
     font-weight: 300;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .why_invest {
@@ -499,7 +511,7 @@ padding-left: 100px !important;
     font-size: 14px !important;
     line-height: 18px !important;
     display: inline-block;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
 }
 
@@ -516,7 +528,7 @@ padding-left: 100px !important;
     line-height: 18px !important;
     color: #A1A1A1 !important;
     display: inline-block;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -1716,7 +1728,7 @@ label {
     line-height: 24px !important;
     text-transform: uppercase;
     color: #ffffff;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .sidebar-contact-info {
@@ -1856,8 +1868,8 @@ Feauture One
 }
 
 .investment_content {
-    color: #000 !important;
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    /* color: #000 !important; */
+    font-family: 'Lato', sans-serif !important;
     font-size: 18px !important;
     font-weight: 500 !important;
     line-height: 28px !important;
@@ -1876,8 +1888,8 @@ Feauture One
 
 .investment_content_para {
        /* color: #000 !important; */
-    font-family: 'Lato', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
-    font-size: 18px !important;
+    font-family: 'LatoBold', sans-serif !important;
+    font-size: 20px !important;
     font-weight: 500 !important;
     line-height: 28px !important;
     text-transform: initial !important;
