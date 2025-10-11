@@ -391,6 +391,44 @@ padding-left: 100px !important;
     min-width: 45px;
 }
 
+.btn_style {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.btn_style_map {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.btn_style_invest {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.hover_external_btn {
+     background: #0b4a35;
+  color: #fff;
+  width: calc(280px * var(--scale, 1));
+  height: calc(50px * var(--scale, 1));
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-family: 'Lato', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+}
+
 .hover-btn {
   position: absolute;
   top: 50%;
@@ -1851,7 +1889,7 @@ Feauture One
 }
 
 .map_cont {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .service_c {
@@ -1860,7 +1898,7 @@ Feauture One
 
 .feature_wrap {
     padding-top: 30px !important;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .feature_row {
@@ -8372,6 +8410,21 @@ Project Four Css
     .gallery_container_styling {
     padding-left: 15px !important;
     padding-right: 15px !important;
+}
+
+.btn_style_invest {
+    margin-top: 30px;
+}
+
+.btn_style_map {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.btn_style_margin {
+    margin-bottom: 60px !important;
 }
 
 .service_padding {

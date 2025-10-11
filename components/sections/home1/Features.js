@@ -273,6 +273,19 @@ Emaar U Rewards</a></h2>
 
                 </div>
             </div>
+
+            <div className="btn_style_invest">
+  <button
+            className="hover_external_btn"
+            onClick={() => {
+              const element = document.getElementById("home");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            REGISTER INTEREST
+          </button>
+</div>
+
         </section>
        
         </>

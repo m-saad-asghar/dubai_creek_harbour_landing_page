@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link"
 import Image from "next/image";
 import { FaBuilding, FaCity, FaDollarSign, FaGift, FaHouseUser, FaTree } from "react-icons/fa";
@@ -109,6 +110,18 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
 
                     </div>
                 </div>
+
+                <div className="btn_style">
+  <button
+            className="hover_external_btn"
+            onClick={() => {
+              const element = document.getElementById("home");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            REGISTER INTEREST
+          </button>
+</div>
                 
             </section>
         </>

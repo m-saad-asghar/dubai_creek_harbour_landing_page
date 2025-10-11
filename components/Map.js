@@ -34,6 +34,19 @@ export default function Map() {
                                 </div>
                             
             </div>
+
+            <div className="btn_style_map">
+  <button
+            className="hover_external_btn"
+            onClick={() => {
+              const element = document.getElementById("home");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            REGISTER INTEREST
+          </button>
+</div>
+
         </section>
        
         </>

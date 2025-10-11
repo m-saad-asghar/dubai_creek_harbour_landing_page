@@ -134,6 +134,18 @@ export default function Features() {
 
                 </div>
             </div>
+
+            <div className="btn_style btn_style_margin">
+  <button
+            className="hover_external_btn"
+            onClick={() => {
+              const element = document.getElementById("home");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            REGISTER INTEREST
+          </button>
+</div>
         </section>
        
         </>

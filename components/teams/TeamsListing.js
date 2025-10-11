@@ -152,6 +152,18 @@ export default function TeamsListing() {
   </div>
 ))}
 
+<div className="btn_style">
+  <button
+            className="hover_external_btn"
+            onClick={() => {
+              const element = document.getElementById("home");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            REGISTER INTEREST
+          </button>
+</div>
+
 
           </div>
         </div>
@@ -194,6 +206,7 @@ export default function TeamsListing() {
             thumbnail: { borderRadius: "8px" },
           }}
         />
+
 
        {/* <div className="about-one__content-bottom">
                                     <div className="about-one__content-bottom-author-box" style={{display: "flex", justifyContent: "center"}}>
