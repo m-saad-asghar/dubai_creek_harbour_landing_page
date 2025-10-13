@@ -7022,6 +7022,15 @@ Project Four Css
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
+    .investment_content_para {
+    font-size: 18px !important;
+}
+
+ .investment_content {
+    font-size: 18px !important;
+}
+
 	.main-header-one__right {
 		display: none;
 	}
