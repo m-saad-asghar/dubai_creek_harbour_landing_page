@@ -7023,6 +7023,16 @@ Project Four Css
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+    .why_c {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .service_num {
+        margin-bottom: 0px !important;
+    }
+
     .investment_content_para {
     font-size: 18px !important;
 }
@@ -8307,7 +8317,7 @@ Project Four Css
     }
     
     .highlighted {
-    min-height: 270px;
+    min-height: 200px;
     padding: 10px !important;
 }
 

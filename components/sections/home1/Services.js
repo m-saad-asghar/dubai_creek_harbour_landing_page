@@ -32,7 +32,8 @@ export default function Features() {
                         >
                             <div className="feauture-one__single-text">
 
-                              <div className="feauture-one__single-bottom">
+                             <div className="why_c">
+                               <div className="feauture-one__single-bottom">
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#ffffff"}}>
 <FaHouseUser className="icon-plane" size={30}/> 
@@ -41,8 +42,9 @@ export default function Features() {
                                 </div>
                             </div>
 
- <h3 className="investment_content" style={{color: "#ffffff"}}>
-<span className="investment_content_para" style={{color: "#ffffff"}}>116,500+</span></h3>
+ <h3 className="investment_content service_num" style={{color: "#ffffff"}}>
+<span className="investment_content_para service_num" style={{color: "#ffffff"}}>116,500+</span></h3>
+                             </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
   <span className="about_para_span" style={{color: "#ffffff"}}>Delivered Units July 2024.</span>
@@ -56,7 +58,8 @@ export default function Features() {
                         >
                             <div className="feauture-one__single-text">
 
-                              <div className="feauture-one__single-bottom">
+                               <div className="why_c">
+                                <div className="feauture-one__single-bottom">
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#ffffff"}}>
 <FaBuilding className="icon-plane" size={30}/> 
@@ -65,11 +68,9 @@ export default function Features() {
                                 </div>
                             </div>
 
-                                {/* <h2 className="investment_content" style={{color: "#ffffff"}}>
-<a href="javascript:void(0);" style={{color: "#ffffff"}}>30,000+</a></h2> */}
-
- <h3 className="investment_content" style={{color: "#ffffff"}}>
-<span className="investment_content_para" style={{color: "#ffffff"}}>30,000+</span></h3>
+ <h3 className="investment_content service_num" style={{color: "#ffffff"}}>
+<span className="investment_content_para service_num" style={{color: "#ffffff"}}>30,000+</span></h3>
+                              </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
   <span className="about_para_span" style={{color: "#ffffff"}}>Residences Under Development UAE.</span>
@@ -83,7 +84,8 @@ export default function Features() {
                         >
                             <div className="feauture-one__single-text">
 
-                              <div className="feauture-one__single-bottom">
+                              <div className="why_c">
+                               <div className="feauture-one__single-bottom">
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#ffffff"}}>
 <FaChartLine className="icon-plane" size={30}/> 
@@ -92,11 +94,9 @@ export default function Features() {
                                 </div>
                             </div>
 
-                                {/* <h2 className="investment_content" style={{color: "#ffffff"}}>
-<a href="javascript:void(0);" style={{color: "#ffffff"}}>56%</a></h2> */}
-
- <h3 className="investment_content" style={{color: "#ffffff"}}>
-<span className="investment_content_para" style={{color: "#ffffff"}}>56%</span></h3>
+ <h3 className="investment_content service_num" style={{color: "#ffffff"}}>
+<span className="investment_content_para service_num" style={{color: "#ffffff"}}>56%</span></h3>
+                             </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
   <span className="about_para_span" style={{color: "#ffffff"}}>Increase in property sales in H1 2024.</span>
@@ -110,7 +110,8 @@ export default function Features() {
                         >
                             <div className="feauture-one__single-text">
 
-                              <div className="feauture-one__single-bottom">
+                              <div className="why_c">
+                               <div className="feauture-one__single-bottom">
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#ffffff"}}>
 <FaGlobe className="icon-plane" size={30}/> 
@@ -122,8 +123,9 @@ export default function Features() {
                                 {/* <h2 className="investment_content" style={{color: "#ffffff"}}>
 <a href="javascript:void(0);" style={{color: "#ffffff"}}>12+ Countries</a></h2> */}
 
- <h3 className="investment_content" style={{color: "#ffffff"}}>
-<span className="investment_content_para" style={{color: "#ffffff"}}>12+ Countries</span></h3>
+ <h3 className="investment_content service_num" style={{color: "#ffffff"}}>
+<span className="investment_content_para service_num" style={{color: "#ffffff"}}>12+ Countries</span></h3>
+                             </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
   <span className="about_para_span" style={{color: "#ffffff"}}>Leading Global Market Presence.</span>
