@@ -40,33 +40,7 @@ export default function TeamsListing() {
     src: "/assets/img/gallery/creek_3.jpg",
     alt: "Gallery Image 3",
     link: "#home",
-    // heading: "Villas Starting from AED 4.36M",
-    //  location: "THE VALLEY"
   },
-  // {
-  //   id: 4,
-  //   src: "/assets/img/gallery/emaar_4.webp",
-  //   alt: "Gallery Image 4",
-  //   link: "#home",
-  //   heading: "Townhouses Starting from AED 3M",
-  //    location: "EMAAR SOUTH"
-  // },
-  // {
-  //   id: 5,
-  //   src: "/assets/img/gallery/emaar_5.webp",
-  //   alt: "Gallery Image 5",
-  //   link: "#home",
-  //   heading: "Apartments Starting from AED 1.6M",
-  //   location: "DUBAI HILLS ESTATE"
-  // },
-  // {
-  //   id: 6,
-  //   src: "/assets/img/gallery/emaar_7.png",
-  //   alt: "Gallery Image 6",
-  //   link: "#home",
-  //   heading: "Apartments Starting from AED 1.7M",
-  //   location: "AL MARJAN ISLAND"
-  // },
 ];
 
 

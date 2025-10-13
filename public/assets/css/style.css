@@ -7030,6 +7030,16 @@ Project Four Css
         margin-bottom: 15px;
     }
 
+    .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.row > [class*='col-'] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
     .service_num {
         margin-bottom: 0px !important;
     }
@@ -8472,6 +8482,14 @@ Project Four Css
 }
 
 @media only screen and (max-width: 767px) {
+
+    .about_para_span {
+    font-size: 14px !important;
+}
+
+.about_para {
+    font-size: 14px !important;
+}
 
      .component_container {
         padding-right: 30px !important;
