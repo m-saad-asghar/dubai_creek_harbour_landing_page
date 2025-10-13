@@ -8292,6 +8292,8 @@ Project Four Css
 
     .feauture-one__single { 
         padding: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
     
     .highlighted {
@@ -8450,9 +8452,26 @@ Project Four Css
 
 @media only screen and (max-width: 767px) {
 
+     .component_container {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+
+    .welcome_emaar_styling {
+        font-size: 30px !important;
+    }
+
+    .welcome_emaar_styling_span {
+        font-size: 30px !important;
+    }
+
+    .why_invest {
+        font-size: 30px !important;
+    }
+
     .gallery_container_styling {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
 .btn_style_invest {
@@ -8495,8 +8514,8 @@ Project Four Css
 }
 
 .banner_container_main_feature {
-padding-left: 50px !important;
-    padding-right: 50px !important;
+padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
 .banner_container_main_except {
