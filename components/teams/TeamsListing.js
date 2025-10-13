@@ -66,13 +66,16 @@ export default function TeamsListing() {
             transition: "all 0.3s ease",
           }}
         >
-          <Image
-            src={image.src}
-            alt={image.alt}
-            width={150}
-            height={200}
-            style={{ objectFit: "cover", display: "block", height: "200px", width: "100%" }}
-          />
+          <div style={{ position: "relative", width: "100%", height: "200px" }}>
+  <Image
+    src={image.src}
+    alt={image.alt}
+    fill
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+    style={{ objectFit: "cover", display: "block" }}
+    priority
+  />
+</div>
 
           {/* Overlay for heading & location */}
           <div
