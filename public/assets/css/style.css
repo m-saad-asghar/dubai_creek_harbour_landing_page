@@ -1933,7 +1933,7 @@ Feauture One
     line-height: 28px !important;
     text-transform: initial !important;
         margin-top: 15px;
-    margin-bottom: 5px;
+        margin-bottom: 15px !important;
     /* color: #0b4a35;
     font-size: 19px !important;
     font-weight: 500 !important;
@@ -1951,6 +1951,7 @@ Feauture One
     font-weight: 500 !important;
     line-height: 28px !important;
     text-transform: initial !important;
+    margin-bottom: 15px !important;
 }
 
 
@@ -8297,8 +8298,8 @@ Project Four Css
     }
     
     .highlighted {
-    min-height: 250px;
-    padding: 20px !important;
+    min-height: 270px;
+    padding: 10px !important;
 }
 
     .component_container {
