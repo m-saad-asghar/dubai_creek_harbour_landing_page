@@ -71,7 +71,7 @@ export default function TeamsListing() {
             alt={image.alt}
             width={150}
             height={200}
-            style={{ objectFit: "cover", display: "block" }}
+            style={{ objectFit: "cover", display: "block", height: "200px", width: "100%" }}
           />
 
           {/* Overlay for heading & location */}
