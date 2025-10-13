@@ -6,7 +6,7 @@ export default function About() {
         <>
             <section className="about-one about_spacing" id="about-us">
                 {/* <div className="shape1 float-bob-y"><img src="assets/img/shape/about-v1-shape1.png" alt=""/></div> */}
-                <div className="container banner_container_main_except">
+                <div className="container banner_container_main_except component_container">
                     <div className="row">
 
                            <div className="col-xl-12 wow animated fadeInLeft" data-wow-delay="0.1s">
@@ -17,7 +17,7 @@ export default function About() {
                                     </p>
                                 </div>
                                 <div className="sec-title">
-                                    <h2 className="welcome_emaar_styling">WELCOME TO DUBAI CREEK HARBOUR</h2>
+                                    <h2 className="welcome_emaar_styling"><span className="welcome_emaar_styling_span">WELCOME TO DUBAI CREEK HARBOUR</span></h2>
                                 </div>
 
                                 {/* <div className="text-box">

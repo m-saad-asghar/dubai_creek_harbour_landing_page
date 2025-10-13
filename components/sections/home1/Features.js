@@ -12,7 +12,7 @@ export default function  Features() {
         
         {/*Start Feauture One*/}
         <section className="feauture-one feature_wrap" id="around-the-corner">
-            <div className="container banner_container_main_feature">
+            <div className="container banner_container_main_feature component_container">
               <div>
                                     <p className="small_heading">
                                         DETAILS
@@ -23,7 +23,7 @@ export default function  Features() {
                                 </div>
                 <div className="row feature_row">
 
-                    <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{marginBottom: 0}} 
                         // style={{minHeight: 250}}
                         >
@@ -47,7 +47,7 @@ export default function  Features() {
                             </div>
                         </div>
                     </div>
-                  <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" 
                         // style={{minHeight: 250}}
                         >
@@ -71,7 +71,7 @@ export default function  Features() {
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" 
                         // style={{minHeight: 250}}
                         >
@@ -97,7 +97,7 @@ Tax-Free Property</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" 
                         // style={{minHeight: 250}}
                         >
@@ -122,7 +122,7 @@ Tax-Free Property</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{paddingTop: 0}} 
                         // style={{minHeight: 250}}
                         >
@@ -148,7 +148,7 @@ Touristic Appeal</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{paddingTop: 0}}
                         // style={{minHeight: 250}}
                         >
@@ -173,7 +173,7 @@ Touristic Appeal</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single"  style={{paddingTop: 0}}
                         // style={{minHeight: 250}}
                         >
@@ -197,7 +197,7 @@ Touristic Appeal</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{paddingTop: 0}}
                         // style={{minHeight: 250}}
                         >
@@ -221,7 +221,7 @@ Touristic Appeal</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{paddingTop: 0}}
                         // style={{minHeight: 250}}
                         >
@@ -246,7 +246,7 @@ Sustainable Planning</a></h2>
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="feauture-one__single" style={{paddingTop: 0}}
                         // style={{minHeight: 250}}
                         >

@@ -137,9 +137,9 @@ export default function Banner() {
             </div>
             <div className="container banner_container_main">
                 <div className="main-slider-one__single">
-                   <div className="container">
+                   <div className="container component_container">
 
-                    <Link href="/" passHref>
+                    <Link href="/" passHref className='logo_styling'>
   <Image
     src="/assets/icon/emaar_logo.png"
     alt="emaar_logo"

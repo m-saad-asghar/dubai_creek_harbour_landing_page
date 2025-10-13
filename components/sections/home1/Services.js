@@ -12,7 +12,7 @@ export default function Features() {
         
         {/*Start Feauture One*/}
         <section className="feauture-one service_padding" id="around-the-corner" style={{paddingTop: 0}}>
-            <div className="container banner_container_main_feature">
+            <div className="container banner_container_main_feature component_container">
               <div>
                                     <p className="small_heading">
                                         Development Excellence
@@ -27,7 +27,7 @@ export default function Features() {
                                 </p>
                 <div className="row service_c">
 
-                    <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="highlighted" 
                         >
                             <div className="feauture-one__single-text">
@@ -51,8 +51,8 @@ export default function Features() {
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div className="highlighted" 
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div className="highlighted"
                         >
                             <div className="feauture-one__single-text">
 
@@ -78,8 +78,8 @@ export default function Features() {
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div className="highlighted" 
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div className="highlighted"
                         >
                             <div className="feauture-one__single-text">
 
@@ -105,8 +105,8 @@ export default function Features() {
                         </div>
                     </div>
 
-                     <div className="col-xl-3 col-lg-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div className="highlighted" 
+                     <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div className="highlighted"
                         >
                             <div className="feauture-one__single-text">
 

@@ -533,14 +533,34 @@ padding-left: 100px !important;
 }
 
 .welcome_emaar_styling {
-        font-family: 'Optima' !important;
+    font-family: 'Optima' !important;
+    color: #0b4a35 !important;
+    text-transform: uppercase !important;
+        font-size: 34px !important;
+    line-height: 52px !important;
+    margin: 20px 0 0px !important;
+    padding: 0 !important;
+        font-weight: 300 !important;
+        /* font-family: 'Optima' !important;
     color: #0b4a35 !important;
     text-transform: uppercase !important;
         font-size: 34px !important;
     line-height: 52px !important;
     margin: 20px 0 0 !important;
     padding: 0 !important;
+    font-weight: 300 !important; */
+}
+
+.welcome_emaar_styling_span {
+    font-family: 'Optima' !important;
+    color: #0b4a35 !important;
+    text-transform: uppercase !important;
+    font-size: 34px !important;
+    line-height: 52px !important;
+    margin: 20px 0 0px !important;
+    padding: 0 !important;
     font-weight: 300 !important;
+    
 }
 
 .privacy_policy {
@@ -1066,8 +1086,8 @@ label {
 /* Bootstrap 5 */
 .container {
     max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .row {
@@ -8270,6 +8290,26 @@ Project Four Css
 
 @media only screen and (max-width: 991px) {
 
+    .feauture-one__single { 
+        padding: 20px !important;
+    }
+    
+    .highlighted {
+    min-height: 250px;
+    padding: 20px !important;
+}
+
+    .component_container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .logo_styling {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
     .banner_container_main {
         padding-left: 0 !important;
         padding-right: 0 !important;
@@ -8278,6 +8318,9 @@ Project Four Css
 .heading_middle {
     text-align: center;
 }
+    .main-slider-one__single {
+        padding: 20px 0px 53px;
+    }
 }
 
 
@@ -8408,8 +8451,8 @@ Project Four Css
 @media only screen and (max-width: 767px) {
 
     .gallery_container_styling {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 .btn_style_invest {
@@ -8441,7 +8484,7 @@ Project Four Css
 }
 
     .main-slider-one__single {
-		padding: 50px 0px 53px;
+		padding: 20px 0px 53px;
 	}
     .banner_container { 
         padding-top: 0;
@@ -8452,8 +8495,8 @@ Project Four Css
 }
 
 .banner_container_main_feature {
-padding-left: 15px !important;
-    padding-right: 15px !important;
+padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 .banner_container_main_except {

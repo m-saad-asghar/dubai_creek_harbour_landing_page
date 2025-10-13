@@ -7,13 +7,17 @@ export default function Future() {
         <>
             <section className="about-one future_styling" id="about-us">
                 {/* <div className="shape1 float-bob-y"><img src="assets/img/shape/about-v1-shape1.png" alt=""/></div> */}
-                <div className="container banner_container_main_except">
+                <div className="container banner_container_main_except component_container">
                     <div className="row minus_styling">
 
                            <div className="col-xl-12 wow animated fadeInLeft" data-wow-delay="0.1s">
                             <div className="about-one__content">
                                 <div className="sec-title">
-                                    <h2 className="welcome_emaar_styling">THE FUTURE OF WATERFRONT LIVING</h2>
+                                    <h2 className="welcome_emaar_styling">
+                                        <span className="welcome_emaar_styling_span">
+                                            THE FUTURE OF WATERFRONT LIVING
+                                        </span>
+                                    </h2>
                                 </div>
 
                                 {/* <div className="text-box">
@@ -33,7 +37,7 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
 
                                 <div className="row future_row">
                                 
-                                                    <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                    <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
@@ -56,7 +60,7 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                  <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                  <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
@@ -80,7 +84,7 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
                                                         </div>
                                                     </div>
                                 
-                                                     <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                     <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
