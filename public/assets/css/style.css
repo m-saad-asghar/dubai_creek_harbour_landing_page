@@ -7024,8 +7024,9 @@ Project Four Css
 @media only screen and (max-width: 767px) {
 
     .why_c {
+        gap: 15px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin-bottom: 15px;
     }
 
