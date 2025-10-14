@@ -2268,10 +2268,11 @@ progress {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    font-family: 'Lato', sans-serif !important;
+    color: #232323;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;

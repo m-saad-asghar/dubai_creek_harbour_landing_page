@@ -22,17 +22,30 @@ export default function Map() {
                 <div className="sec-title" style={{marginTop: 15, paddingBottom: 0}}>
                                     <h2 className="why_invest">DUBAI MAP</h2>
                                 </div>
+                            
+            </div>
 
-                                <div>
+            <div>
+                 <div>
+
+                  {/* <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      style={{ objectFit: "cover", display: "block" }}
+                      priority
+                    /> */}
+
                                     <Image
     src="/assets/icon/map.png"
     alt="emaar_logo"
-    height={40}
-    width={300}
-    style={{ height: "100%", width: "100%" }}
+    width={100}
+    height={300}
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      style={{ objectFit: "cover", display: "block", height: "100vh", width: "100%" }}
   />
                                 </div>
-                            
             </div>
 
             <div className="btn_style_map">

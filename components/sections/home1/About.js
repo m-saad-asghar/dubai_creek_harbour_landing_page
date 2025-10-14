@@ -25,16 +25,16 @@ export default function About() {
                                 </div> */}
 
                                 <div className="text-box">
-<p className="about_para">
-    <span className="about_para_span">Dubai Creek Harbour is home to signature landmarks such as the Dubai Creek Marina — a paradise for yachting enthusiasts — and the Ras Al Khor Wildlife Sanctuary, celebrated for its diverse ecosystem and graceful flamingos. Its peaceful lagoons invite you to enjoy scenic nature walks and birdwatching in a truly tranquil setting.</span>
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Home to iconic landmarks like Dubai Creek Marina and the Ras Al Khor Wildlife Sanctuary, Dubai Creek Harbour blends urban sophistication with natural beauty. Stroll along peaceful lagoons, enjoy waterfront dining, and take in panoramic skyline views.</span>
 </p><br/>
 
-<p className="about_para">
-    <span className="about_para_span">Perfectly connected, Dubai Creek Harbour offers effortless access to Downtown Dubai, Dubai International Airport, and the upcoming Dubai Metro expansion. With its scenic promenades, world-class dining, schools, healthcare facilities, and leisure destinations, the community stands as a premier address for both living and investment.</span>
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Perfectly connected to Downtown Dubai, Dubai International Airport, and the upcoming Metro expansion, it offers unmatched convenience and lifestyle.</span>
 </p><br/>
 
-<p className="about_para">
-    <span className="about_para_span">Discover an array of residences, from elegant apartments and penthouses to luxury hotels such as Vida Creek Harbour, Address Harbour Point, and Palace Residences — all boasting breathtaking views of the Creek and the Dubai skyline. Residents and visitors alike can indulge in fine dining, relax at rooftop pools, and explore premium retail experiences, all within one remarkable destination.</span>
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Discover elegant apartments, penthouses, and hotels including Vida Creek Harbour, Address Harbour Point, and Palace Residences — all offering world-class amenities, retail, and leisure experiences in one vibrant waterfront destination.</span>
 </p>
                                 </div>
                             </div>

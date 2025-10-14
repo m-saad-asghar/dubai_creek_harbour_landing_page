@@ -22,8 +22,8 @@ export default function Features() {
                 <div className="sec-title" style={{marginTop: 15, paddingBottom: 0}}>
                                     <h2 className="why_invest">WHY EMAAR?</h2>
                                 </div>
-                                <p className="about_para services_cont">
-                                    <span className="about_para_span">Emaar Properties, one of the world's most valuable and admired integrated real estate development companies, is shaping lifestyles of the future. When you buy an Emaar property, you are investing in a name you can trust, as lifestyle you can enjoy, and a community you can thrive in, all within a city where dreams come true.</span>
+                                <p className="about_paragraph services_cont">
+                                    <span className="about_paragraph_span">Emaar Properties, one of the world's most valuable and admired integrated real estate development companies, is shaping lifestyles of the future. When you buy an Emaar property, you are investing in a name you can trust, as lifestyle you can enjoy, and a community you can thrive in, all within a city where dreams come true.</span>
                                 </p>
                 <div className="row service_c">
 
@@ -47,7 +47,7 @@ export default function Features() {
                              </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
-  <span className="about_para_span" style={{color: "#ffffff"}}>Delivered Units July 2024.</span>
+  <span className="about_paragraph_span" style={{color: "#ffffff"}}>Delivered Units July 2024.</span>
 </p> 
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export default function Features() {
                               </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
-  <span className="about_para_span" style={{color: "#ffffff"}}>Residences Under Development UAE.</span>
+  <span className="about_paragraph_span" style={{color: "#ffffff"}}>Residences Under Development UAE.</span>
 </p> 
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default function Features() {
                              </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
-  <span className="about_para_span" style={{color: "#ffffff"}}>Increase in property sales in H1 2024.</span>
+  <span className="about_paragraph_span" style={{color: "#ffffff"}}>Increase in property sales in H1 2024.</span>
 </p> 
                             </div>
                         </div>
@@ -128,7 +128,7 @@ export default function Features() {
                              </div>
 
 <p className="investment_text" style={{color: "#ffffff"}}>
-  <span className="about_para_span" style={{color: "#ffffff"}}>Leading Global Market Presence.</span>
+  <span className="about_paragraph_span" style={{color: "#ffffff"}}>Leading Global Market Presence.</span>
 </p> 
                             </div>
                         </div>

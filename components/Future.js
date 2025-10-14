@@ -25,19 +25,22 @@ export default function Future() {
                                 </div> */}
 
                                 <div className="text-box">
-<p className="about_para">
-    <span className="about_para_span">Experience the perfect blend of tranquillity, wellness, and sophistication at Dubai Creek Harbour. This vibrant community combines serene waterfront living with lively retail promenades, wellness facilities, and breathtaking views of the marina and Dubai skyline. Enjoy sunrise yoga by the water, alfresco dining, or leisurely walks along the picturesque promenade. Capture stunning creek views or embark on a scenic boat tour to admire Dubai’s iconic landmarks from a new perspective.</span>
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Discover the perfect harmony of tranquillity, wellness, and sophistication at Dubai Creek Harbour. This vibrant community blends serene waterfront living with lively promenades, wellness facilities, and breathtaking views of the marina and Dubai skyline.</span>
 </p><br/>
 
-<p className="about_para">
-    <span className="about_para_span">Unwind by an infinity pool overlooking the Burj Khalifa, or explore the neighbourhood on a relaxing bike ride. Whether you’re looking for your dream home or a rewarding investment, Dubai Creek Harbour delivers unmatched value. Choose from elegant one- to three-bedroom apartments, spacious family residences, or luxurious penthouses — all designed with contemporary style and exceptional attention to detail.
-Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Enjoy sunrise yoga by the water, alfresco dining, or leisurely strolls along the picturesque creek. Relax by an infinity pool overlooking the Burj Khalifa or explore the neighbourhood on a scenic bike ride.</span>
+</p><br/>
+
+<p className="about_paragraph">
+    <span className="about_paragraph_span">Whether for living or investment, Dubai Creek Harbour offers exceptional value with its collection of 1–3 bedroom apartments, family homes, and luxury penthouses — all crafted with contemporary elegance and world-class design.</span>
 </p>
                                 </div>
 
                                 <div className="row future_row">
                                 
-                                                    <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                    {/* <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
@@ -55,12 +58,12 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
 <span className="investment_content_para">711,399 sqm</span></h3>
                                 
                                 <p className="investment_text">
-    <span className="about_para_span">Serviced Apartments.</span>
+    <span className="about_paragraph_span">Serviced Apartments.</span>
 </p>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                  <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                    </div> */}
+                                                  {/* <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
@@ -78,13 +81,13 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
 <span className="investment_content_para">7.4 million sqm</span></h3>
                             
                                 <p className="investment_text">
-    <span className="about_para_span">Residential Space.</span>
+    <span className="about_paragraph_span">Residential Space.</span>
 </p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                 
-                                                     <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                                     {/* <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                         <div className="feauture-one__single" 
                                                         >
                                                             <div className="feauture-one__single-text">
@@ -102,11 +105,11 @@ Discover a new dimension of waterfront living at Dubai Creek Harbour.</span>
 <span className="investment_content_para">500,000 sqm</span></h3>
                                 
                                 <p className="investment_text">
-    <span className="about_para_span">Parks & Open Spaces.</span>
+    <span className="about_paragraph_span">Parks & Open Spaces.</span>
 </p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                 
                                                 </div>
                             </div>

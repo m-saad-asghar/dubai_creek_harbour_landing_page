@@ -53,7 +53,7 @@ export default function TeamsListing() {
           </div> */}
 
           {/* Normal grid view (unchanged) */}
-          <div className="row">
+          <div className="row team_listing_styling">
         {images.map((image) => (
   <div key={image.id} className="col-xl-4 col-lg-4">
     <div className="team-two__single">
@@ -129,7 +129,7 @@ export default function TeamsListing() {
   </div>
 ))}
 
-<div className="btn_style">
+{/* <div className="btn_style">
   <button
             className="hover_external_btn"
             onClick={() => {
@@ -139,7 +139,7 @@ export default function TeamsListing() {
           >
             REGISTER INTEREST
           </button>
-</div>
+</div> */}
 
 
           </div>

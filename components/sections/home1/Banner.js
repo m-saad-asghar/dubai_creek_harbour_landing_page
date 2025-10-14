@@ -131,7 +131,7 @@ export default function Banner() {
     <section className="main-slider main-slider-one" id="home">
       <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-nav-none owl-dots-none">                    
         <SwiperSlide className="swiper-slide">
-          <div className="image-layer" 
+          <div className="image-layer main_banner" 
           style={{backgroundImage: 'url(assets/img/slider/emaar_img_2.jpg)'}}
           >
             </div>
@@ -150,7 +150,7 @@ export default function Banner() {
 </Link>
 
   <div className="row banner_container">
-    <div className="col-lg-6 col-md-12">
+    <div className="col-lg-7 col-md-12">
       <div className="main-slider-one__content">
         <div className='banner_text_container'>
           <p className='heading_middle heading'>DUBAI CREEK HARBOUR</p>
@@ -164,21 +164,17 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
           <div className="btn-two"></div>
         </div>
 
-        <div className="contact-info">
+        {/* <div className="contact-info">
           <ul>
             <li>
-              {/* <div className="icon-box">
-                <span className="icon-pin"></span>
-              </div> */}
+              
             </li>
 
             <li>
-              {/* <div className="icon-box">
-                <span className="icon-envelope"></span>
-              </div> */}
+              
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className='resp_usd'>
         <p className='down_styling'>
@@ -186,7 +182,7 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
         </p>
       </div>
     </div>
-    <div className="col-lg-1 col-md-12"></div>
+    {/* <div className="col-lg-1 col-md-12"></div> */}
     <div className="col-lg-5 col-md-12">
       <div
         className="contact-form"
@@ -206,10 +202,13 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
 
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
+        <label htmlFor="keepUpdated" className='checkbox_text'>
+        Full Name*
+      </label>
         <input
           type="text"
           name="name"
-          placeholder="Enter Your Name"
+          placeholder="Enter Full Name"
           className="form-control input_styling"
           value={formData.name}
           onChange={handleChange}
@@ -218,10 +217,13 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
       </div>
 
        <div className="mb-3">
+        <label htmlFor="keepUpdated" className='checkbox_text'>
+        Email Address*
+      </label>
         <input
           type="email"
           name="email"
-          placeholder="Enter Your Email Address"
+          placeholder="Enter Your Email"
           className="form-control input_styling"
           value={formData.email}
           onChange={handleChange}
@@ -230,7 +232,9 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
       </div>
 
       <div className="mb-3">
-
+<label htmlFor="keepUpdated" className='checkbox_text'>
+        Phone Number*
+      </label>
         <PhoneInput
   name="phone"
   country={"ae"}
@@ -273,7 +277,7 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
 </a> to understand how Emaar handles your personal data.
       </p>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: 20 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: 24 }}>
       <input
         type="checkbox"
         id="keepUpdated"

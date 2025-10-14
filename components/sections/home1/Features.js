@@ -38,8 +38,8 @@ export default function  Features() {
                                 </div>
                             </div>
 
-                                <h3 className="investment_content">
-<span className="investment_content_para">Greater Rental Profits</span></h3>
+<h2 className="investment_content">
+<a href="javascript:void(0);">Greater Rental Profits</a></h2>
 
 <p className="investment_text">
   <span className="about_para_span">Gross rental yields for investors range from 5% to 9%.</span>
