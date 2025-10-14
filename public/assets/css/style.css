@@ -295,7 +295,7 @@ h6 {
 
 .banner_container_main_feature {
 padding-left: 130px !important;
-    padding-right: 80px !important;
+    padding-right: 130px !important;
 }
 
 .content {
@@ -305,6 +305,13 @@ padding-left: 130px !important;
     line-height: 24px !important;
     color: #ffffff;
     padding-top: 20px;
+}
+
+.seperater {
+        margin-right: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .input_styling {
@@ -339,6 +346,9 @@ font-size: 15px !important;
     line-height: 24px !important;
     font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
+}
+.privacy_policy_footer {
+    margin-top: 13px !important;
 }
 
 .map_background {
@@ -536,6 +546,15 @@ font-size: 15px !important;
     line-height: 24px !important;
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
+}
+
+.qr_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-widget__links {
+    margin-right: 0 !important;
 }
 
 /* show button only when image hovered */
@@ -8579,6 +8598,15 @@ Project Four Css
 }
 
 @media only screen and (max-width: 767px) {
+
+    .privacy_policy_footer {
+    margin-top: 13px !important;
+}
+
+    .qr_container {
+        display: flex;
+        justify-content: center;
+    }
 
     .map_background {
         height: 300px;

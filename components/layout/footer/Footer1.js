@@ -13,7 +13,7 @@ export default function Footer1() {
                     <div className="container banner_container_main_feature">
                         <div className="row">
                             {/*Start Single Footer Widget */}
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
                                 <div className="single-footer-widget footer-widget__about">
                                     <div className="logo-box">
                                         <Link href="/" passHref>
@@ -29,17 +29,24 @@ export default function Footer1() {
 
                                     <div className="footer-widget__about-inner footer_spacing">
                                         <div className="text-box">
-                                            <p style={{color: "#ffffff"}}>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1<br/>
+                                            <p style={{color: "#ffffff"}}>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1,  
                                                  Downtown, Dubai, UAE</p>
                                         </div>
-                                        <div className="number-box">
+                                        <div className="number-box" style={{
+    display: "flex",
+    flexWrap: "wrap",      // allows wrapping on small screens
+    alignItems: "center",  // vertically center items
+    gap: "5px",            // spacing between items
+  }}>
                                             <Link href="tel:97145776496">+971 (0)4 577 6496</Link>
+                                            <span className="seperater">|</span>
+                                            <a href="mailto:info@shiroestate.ae">info@shiroestate.ae</a>
                                         </div>
 
-                                       <div className="number-box">
+                                       {/* <div className="number-box">
  <a href="mailto:info@shiroestate.ae">info@shiroestate.ae</a>
 
-</div>
+</div> */}
 
 
                                         {/* <div className="footer-social-link">
@@ -49,12 +56,18 @@ export default function Footer1() {
                                             <Link href="#">ig</Link>
                                         </div> */}
                                     </div>
+
+                                    <div className="footer-widget__about-inner footer_spacing privacy_policy_footer">
+                                        <div className="number-box">
+                                            <Link href="https://www.shiroestate.ae/privacy-policy" target="_blank" style={{color: "#ffffff"}}>Privacy Policy</Link>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                            {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links">
                                     <div className="title">
                                         <h2>Quick Links</h2>
@@ -67,22 +80,22 @@ export default function Footer1() {
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp qr_container" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links">
                                     <Image
     src="/assets/logo/dubai_creek_harbour.png"
     alt="qr_code"
-    height={180}
-    width={300} // adjust based on your logo’s aspect ratio
-    style={{ height: "180px", width: "auto" }}
+    height={100}
+    width={150} // adjust based on your logo’s aspect ratio
+    style={{ height: "100px", width: "auto" }}
   />
 
                                 </div>
                             </div>
 
-                              {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                              {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links footer_spacing">
 
                                   
@@ -113,7 +126,7 @@ export default function Footer1() {
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}
-                            {/* <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            {/* <div className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="single-footer-widget footer-widget__newsletter">
                                     <div className="title">
                                         <h2>Newsletter</h2>
