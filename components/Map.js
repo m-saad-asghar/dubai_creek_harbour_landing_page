@@ -25,27 +25,8 @@ export default function Map() {
                             
             </div>
 
-            <div>
-                 <div>
+            <div className="map_background">
 
-                  {/* <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      style={{ objectFit: "cover", display: "block" }}
-                      priority
-                    /> */}
-
-                                    <Image
-    src="/assets/icon/map.png"
-    alt="emaar_logo"
-    width={100}
-    height={300}
-    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      style={{ objectFit: "cover", display: "block", height: "100vh", width: "100%" }}
-  />
-                                </div>
             </div>
 
             <div className="btn_style_map">

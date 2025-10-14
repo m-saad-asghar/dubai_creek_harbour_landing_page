@@ -337,8 +337,25 @@ font-size: 15px !important;
     font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'LatoLight', sans-serif !important;
     font-weight: 300 !important;
+}
+
+.map_background {
+        display: block;
+    background: rgba(255, 255, 255, 0);
+    background-image: url(//d9hhrg4mnvzow.cloudfront.net/property.emaar.com/en/investment/8ddecfc4-emaar-map-web-v2-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(0px * var(--scale, 1));
+    border-radius: calc(0px * var(--scale, 1));
+    width: 100%;
+    height: calc(850px * var(--scale, 1));
+    position: relative;
 }
 
 .about_para {
