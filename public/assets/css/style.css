@@ -337,7 +337,7 @@ font-size: 15px !important;
     font-style: normal;
     font-size: 16px !important;
     line-height: 24px !important;
-    font-family: 'LatoLight', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
 }
 
@@ -8401,6 +8401,11 @@ Project Four Css
 
 @media only screen and (max-width: 991px) {
 
+        #lp-pom-image-1223 .lp-pom-image-container img {
+        width: calc(320px * var(--scale, 1));
+        height: calc(221px * var(--scale, 1));
+    }
+
      .team_listing_styling {
         margin-left: 0px !important;
     }
@@ -8575,8 +8580,13 @@ Project Four Css
 
 @media only screen and (max-width: 767px) {
 
+    .map_background {
+        height: 300px;
+    }
+
     .sub_heading {
     font-size: 30px !important;
+    line-height: 38px;
 }
 
     .highlighted {
