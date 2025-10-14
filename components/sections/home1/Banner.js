@@ -154,7 +154,10 @@ export default function Banner() {
       <div className="main-slider-one__content">
         <div className='banner_text_container'>
           <p className='heading_middle heading'>DUBAI CREEK HARBOUR</p>
-          <h1 className='heading_middle sub_heading'>Luxury Homes Starting from AED 1.7M.*</h1>
+          <h1 className="heading_middle sub_heading">
+  Luxury Homes Starting from <span className="line-break">AED 1.7M.*</span>
+</h1>
+
         <p className='heading_middle content'>EARN EXCEPTIONAL RETURNS ON YOUR PROPERTY INVESTMENT
 IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
         </div>
@@ -177,9 +180,10 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
         </div> */}
       </div>
       <div className='resp_usd'>
-        <p className='down_styling'>
-          *USD 463,000 / EUR 398,000 / GBP 344,000
-        </p>
+        <p className="down_styling">
+  *USD 463,000 / EUR 398,000 / <span className="line-break">GBP 344,000</span>
+</p>
+
       </div>
     </div>
     {/* <div className="col-lg-1 col-md-12"></div> */}

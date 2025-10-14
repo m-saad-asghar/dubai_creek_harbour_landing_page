@@ -15,7 +15,7 @@ export default function Footer1() {
                             {/*Start Single Footer Widget */}
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
                                 <div className="single-footer-widget footer-widget__about">
-                                    <div className="logo-box">
+                                    <div className="logo-box centerize">
                                         <Link href="/" passHref>
   <Image
     src="/assets/img/shiro_images/logo.png"
@@ -28,20 +28,16 @@ export default function Footer1() {
                                     </div>
 
                                     <div className="footer-widget__about-inner footer_spacing">
-                                        <div className="text-box">
+                                        <div className="text-box centerize">
                                             <p style={{color: "#ffffff"}}>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1,  
                                                  Downtown, Dubai, UAE</p>
                                         </div>
-                                        <div className="number-box" style={{
-    display: "flex",
-    flexWrap: "wrap",      // allows wrapping on small screens
-    alignItems: "center",  // vertically center items
-    gap: "5px",            // spacing between items
-  }}>
-                                            <Link href="tel:97145776496">+971 (0)4 577 6496</Link>
-                                            <span className="seperater">|</span>
-                                            <a href="mailto:info@shiroestate.ae">info@shiroestate.ae</a>
-                                        </div>
+                                        <div className="contact-box centerize">
+  <Link href="tel:97145776496">+971 (0)4 577 6496</Link>
+  <span className="contact-separator seperater">|</span>
+  <a href="mailto:info@shiroestate.ae">info@shiroestate.ae</a>
+</div>
+
 
                                        {/* <div className="number-box">
  <a href="mailto:info@shiroestate.ae">info@shiroestate.ae</a>
@@ -58,7 +54,7 @@ export default function Footer1() {
                                     </div>
 
                                     <div className="footer-widget__about-inner footer_spacing privacy_policy_footer">
-                                        <div className="number-box">
+                                        <div className="number-box centerize">
                                             <Link href="https://www.shiroestate.ae/privacy-policy" target="_blank" style={{color: "#ffffff"}}>Privacy Policy</Link>
                                         </div>
                                     </div>
