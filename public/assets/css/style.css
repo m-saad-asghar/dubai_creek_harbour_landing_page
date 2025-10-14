@@ -8586,7 +8586,7 @@ Project Four Css
 
     .sub_heading {
     font-size: 30px !important;
-    line-height: 38px;
+    line-height: 38px !important;
 }
 
     .highlighted {
