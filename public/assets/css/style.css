@@ -299,7 +299,7 @@ padding-left: 130px !important;
 }
 
 .content {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'LatoLight', sans-serif !important;
     font-weight: 300 !important;
     font-size: 16px !important;
     line-height: 24px !important;
@@ -732,6 +732,7 @@ input {
 
 .down_styling {
     color: #ffffff;
+     font-family: 'LatoLight', sans-serif !important;
 }
 
 .modern-checkbox:checked::after {
@@ -8574,6 +8575,10 @@ Project Four Css
 
 @media only screen and (max-width: 767px) {
 
+    .sub_heading {
+    font-size: 30px !important;
+}
+
     .highlighted {
         margin-bottom: 10px;
     }
@@ -8604,11 +8609,11 @@ Project Four Css
     }
 
     .welcome_emaar_styling_span {
-        font-size: 30px !important;
+        font-size: 28px !important;
     }
 
     .why_invest {
-        font-size: 30px !important;
+        font-size: 28px !important;
     }
 
     .gallery_container_styling {
