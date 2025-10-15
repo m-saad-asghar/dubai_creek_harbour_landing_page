@@ -276,6 +276,15 @@ h6 {
     color: #ffffff;
 }
 
+.thank_you {
+    color: #0b4a35;
+     font-family: 'LatoBold', sans-serif !important;
+}
+
+.will_get_back {
+     color: #0b4a35;
+}
+
 .why_emaar_styling {
     color: rgb(0, 0, 0);
     font-style: normal;
