@@ -95,7 +95,6 @@ export default function Banner() {
    setDisableBtn(false);
 
     if (result.result) {
-      console.log("debugging test", result.result)
       router.push('/thank-you');
 //       toast.success(
 //   "Thank you for reaching out. Your inquiry has been received and we will contact you soon.",

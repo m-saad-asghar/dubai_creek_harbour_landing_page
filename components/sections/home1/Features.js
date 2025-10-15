@@ -11,7 +11,7 @@ export default function  Features() {
         <>
         
         {/*Start Feauture One*/}
-        <section className="feauture-one feature_wrap" id="around-the-corner">
+        <section className="feauture-one feature_wrap" id="why-invest-in-dubai">
             <div className="container banner_container_main_feature component_container">
               <div>
                                     <p className="small_heading">
