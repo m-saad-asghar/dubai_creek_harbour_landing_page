@@ -31,6 +31,7 @@ const swiperOptions = {
 
 }
 
+
 export default function Banner() {
   const router = useRouter();
     const [isOpen, setOpen] = useState(false)
