@@ -35,6 +35,16 @@ export default function ThankYou() {
 
   return (
     <>
+    {/* ✅ Google Analytics Event Script */}
+      <Script id="lead-submission" strategy="afterInteractive">
+        {`
+          gtag('event', 'lead_submission', {
+            lead_language: 'english',
+            project_name: 'dubai_creek_harbour',
+            landing_page: 'dch_en'
+          });
+        `}
+      </Script>
        <div
       style={{
         display: 'flex',
