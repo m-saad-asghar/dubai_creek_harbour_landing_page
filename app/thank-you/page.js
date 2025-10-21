@@ -23,9 +23,9 @@ export default function ThankYou() {
     }, interval);
 
     // redirect after 5 seconds
-    const redirectTimer = setTimeout(() => {
-      router.back();
-    }, 4000);
+    // const redirectTimer = setTimeout(() => {
+    //   router.back();
+    // }, 4000);
 
     return () => {
       clearInterval(timer);
