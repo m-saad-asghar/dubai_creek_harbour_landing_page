@@ -33,27 +33,8 @@ export default function ThankYou() {
     };
   }, [router]);
 
-   useEffect(() => {
-    if (window.fbq) {
-      window.fbq("track", "Lead");
-    }
-  }, []);
-
   return (
     <>
-    {/* ✅ Google tag (gtag.js) */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-KXZ1V7HTLS"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics-thankyou" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-KXZ1V7HTLS');
-        `}
-      </Script>
        <div
       style={{
         display: 'flex',
