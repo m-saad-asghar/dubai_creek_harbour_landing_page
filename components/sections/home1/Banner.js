@@ -241,6 +241,9 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
           value={formData.name}
           onChange={handleChange}
           required
+          autoComplete="off"
+  autoCorrect="off"
+  spellCheck="false"
         />
       </div>
 
@@ -256,6 +259,9 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
           value={formData.email}
           onChange={handleChange}
           required
+          autoComplete="off"
+  autoCorrect="off"
+  spellCheck="false"
         />
       </div>
 
