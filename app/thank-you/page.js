@@ -89,7 +89,7 @@ export default function ThankYou() {
       </div>
     </div>
      {/* ✅ Google Analytics Event Script */}
-      <Script id="lead-submission" strategy="afterInteractive">
+      <Script id="lead-submission-en" strategy="afterInteractive">
       {`
         window.gtag('event', 'lead_submission_dch_en', {
           lead_language: 'english',
