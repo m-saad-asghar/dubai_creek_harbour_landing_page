@@ -93,10 +93,10 @@ export default function Banner() {
     }
 
    if (!formData.phone) {
-    setPhoneError("Phone number is required.");
+    setPhoneError("Phone Number is Required.");
     return;
 } else if (formData.phone.length < 9 || formData.phone.length > 15) {
-  setPhoneError("Phone number must be between 9 and 15 characters.");
+  setPhoneError("Phone Number must be between 9 and 15 Digits, including Country Code.");
   return;
 }else{
   setPhoneError("");
