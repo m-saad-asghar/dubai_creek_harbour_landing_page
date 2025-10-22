@@ -317,6 +317,7 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
   enableAreaCodes={true}
   disableCountryGuess={false}
   disableSearchIcon={false}
+  placeholder="+XX XXX XXXXXXX"
   // onChange={(value) =>
   //   setFormData({
   //     ...formData,
