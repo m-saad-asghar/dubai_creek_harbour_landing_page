@@ -309,7 +309,15 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
   value={formData.phone}
   onChange={(value, countryData) => {
     setFormData({ ...formData, phone: value });
-    if (countryData?.countryCode && !country) {
+
+    // ✅ If user completely clears number or only leaves '+', remove country flag
+    if (!value || value === '+' || value.length <= countryData?.dialCode?.length) {
+      setCountry('');
+      return;
+    }
+
+    // ✅ Auto-select if user types a valid country code
+    if (countryData?.countryCode && countryData.dialCode) {
       setCountry(countryData.countryCode);
     }
   }}
@@ -317,14 +325,7 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
   enableAreaCodes={true}
   disableCountryGuess={false}
   disableSearchIcon={false}
-  placeholder="+XX XXX XXXXXXX"
-  // onChange={(value) =>
-  //   setFormData({
-  //     ...formData,
-  //     phone: value,
-  //   })
-  // }
-  // countryCodeEditable={false}
+  placeholder="+___ ___ ______"
   required
   inputStyle={{
     width: "100%",
@@ -333,10 +334,11 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
     height: "50px",
   }}
   inputProps={{
-          name: "phone",
-          required: true,
-        }}
+    name: "phone",
+    required: true,
+  }}
 />
+
 <p className='error_msg'>{phoneError}</p>
 
         {/* <input
