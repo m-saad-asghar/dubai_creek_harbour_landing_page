@@ -38,6 +38,7 @@ export default function Banner() {
      const [disableBtn, setDisableBtn] = useState(false);
      const searchParams = useSearchParams();
   const [originValue, setOriginValue] = useState('');
+   const [country, setCountry] = useState("");
     const [phoneError, setPhoneError] = useState('')
     const [formData, setFormData] = useState({
     name: '',
@@ -69,14 +70,33 @@ export default function Banner() {
     });
   };
 
+  const handlePhoneChange = (value, countryData, e, formattedValue) => {
+    setFormData({ ...formData, phone: value });
+
+    // Auto-select if user types a valid country code
+    if (countryData?.countryCode && countryData.dialCode) {
+      setCountry(countryData.countryCode);
+    }
+
+    // Clear error if country is selected
+    if (countryData?.countryCode) {
+      setPhoneError("");
+    }
+  };
+
    const handleSubmit = async (e) => {
   e.preventDefault();
 
+  if (!country) {
+      setPhoneError("Please Select a Country before Entering your Number.");
+      return;
+    }
+
    if (!formData.phone) {
-    setPhoneError("Phone number is required");
+    setPhoneError("Phone number is required.");
     return;
 } else if (formData.phone.length < 9 || formData.phone.length > 15) {
-  setPhoneError("Phone number must be between 9 and 15 characters");
+  setPhoneError("Phone number must be between 9 and 15 characters.");
   return;
 }else{
   setPhoneError("");
@@ -285,15 +305,25 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
       </label>
         <PhoneInput
   name="phone"
-  country={"ae"}
+  country={country || undefined}
   value={formData.phone}
-  onChange={(value) =>
-    setFormData({
-      ...formData,
-      phone: value,
-    })
-  }
-  countryCodeEditable={false}
+  onChange={(value, countryData) => {
+    setFormData({ ...formData, phone: value });
+    if (countryData?.countryCode && !country) {
+      setCountry(countryData.countryCode);
+    }
+  }}
+  countryCodeEditable={true}
+  enableAreaCodes={true}
+  disableCountryGuess={false}
+  disableSearchIcon={false}
+  // onChange={(value) =>
+  //   setFormData({
+  //     ...formData,
+  //     phone: value,
+  //   })
+  // }
+  // countryCodeEditable={false}
   required
   inputStyle={{
     width: "100%",
@@ -301,6 +331,10 @@ IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
     border: "1px solid #000",
     height: "50px",
   }}
+  inputProps={{
+          name: "phone",
+          required: true,
+        }}
 />
 <p className='error_msg'>{phoneError}</p>
 
