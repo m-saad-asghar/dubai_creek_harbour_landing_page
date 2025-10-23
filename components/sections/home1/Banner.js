@@ -37,6 +37,7 @@ export default function Banner() {
     const [keepUpdated, setKeepUpdated] = useState(true);
      const [disableBtn, setDisableBtn] = useState(false);
      const searchParams = useSearchParams();
+     const [countryValue, setCountryValue] = useState('');
   const [originValue, setOriginValue] = useState('');
     const [phoneError, setPhoneError] = useState('')
     const [formData, setFormData] = useState({
@@ -48,6 +49,7 @@ export default function Banner() {
   
   useEffect(() => {
     const origin = searchParams.get('origin');
+    const country = searchParams.get('country');
 
     if (origin) {
       if (origin.toLowerCase() === 'meta') {
@@ -59,6 +61,16 @@ export default function Banner() {
       }
     } else {
       setOriginValue('');
+    }
+
+    if (country) {
+  const formattedCountry = country
+    .replace(/_/g, ' ')
+    .toLowerCase()
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+  setCountryValue(formattedCountry);
+} else {
+      setCountryValue('');
     }
   }, [searchParams]);
 
@@ -107,6 +119,7 @@ export default function Banner() {
       SOURCE_ID: "WEB",
       ASSIGNED_BY_ID: 25,
       UF_CRM_1754652292782: "Dubai Creek Harbour EN Landing Page",
+      UF_CRM_1761206533: countryValue,
     },
     params: {
       REGISTER_SONET_EVENT: "Y",
